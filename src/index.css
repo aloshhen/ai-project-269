@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-cream-50 text-navy-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-navy-900 text-white px-8 py-4 font-medium tracking-wide transition-all duration-300 hover:bg-navy-800 hover:shadow-lg;
+  }
+
+  .btn-gold {
+    @apply bg-gold-600 text-navy-900 px-8 py-4 font-semibold tracking-wide transition-all duration-300 hover:bg-gold-500 hover:shadow-lg;
+  }
+
+  .card-elegant {
+    @apply bg-white border border-navy-100 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-navy-200;
+  }
+
+  .input-elegant {
+    @apply w-full px-4 py-3 bg-white border border-navy-200 text-navy-900 placeholder-navy-400 focus:outline-none focus:border-navy-500 transition-colors;
+  }
+
+  .filter-active {
+    @apply bg-navy-900 text-white;
+  }
+
+  .filter-inactive {
+    @apply bg-white text-navy-700 border border-navy-200 hover:border-navy-400;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mobile-safe-container {
+    @apply max-w-full overflow-x-hidden;
+  }
+
+  .telegram-safe-bottom {
+    @apply pb-24;
+  }
+}
