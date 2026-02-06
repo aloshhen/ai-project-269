@@ -1,80 +1,20 @@
-# WEBSITE Project
+# Project
 
-> 🤖 Этот проект был автоматически сгенерирован с помощью AI Constructor Bot
+Generated with AI Constructor Bot
 
-## 📝 Описание
-
-<b>ИСХОДНЫЙ ЗАПРОС:</b>
-сделай мне интернет магазин продажи носков
-
-<b>УТОЧНЕНИЯ:</b>
-🧩 Какие основные категории товаров будут представлены?
-→ Носки мужские
-• Носки женские
-• Носки детские
-
-⚡ Какой функционал корзины и оплаты нужен?
-→ Корзина с выбором доставки
-• Корзина с промокодами и скидками
-
-🎨 Какой стиль оформления предпочтителен?
-→ Классический и элегантный
-
-⚡ Какие дополнительные функции нужны?
-→ Фильтры по размеру и цвету
-• Рекомендации товаров
-• Отзывы покупателей
-
-
-
-## 🚀 Технологии
-
-- Frontend: React.js (для динамического интерфейса)  
-- Backend: Node.js + Express (или Next.js для SSR, если нужен SEO)  
-- База данных: MongoDB (для хранения товаров, заказов, отзывов)  
-- Платежная система: Stripe / PayPal  
-- Дополнительно: Redux (для управления состоянием корзины), SCSS (для стилей)  
-
----
-
-## 📁 Структура проекта
-
-- `package.json`
-- `index.html`
-- `vite.config.js`
-- `tailwind.config.js`
-- `postcss.config.js`
-- `src/main.jsx`
-- `src/index.css`
-- `src/App.jsx`
-- `src/components/IconRegistry.tsx`
-- `src/components/SafeIcon.tsx`
-- `vercel.json`
-- `.gitignore`
-- `README.md`
-
-## 🛠️ Установка
+## Development
 
 ```bash
 npm install
-```
-
-## ▶️ Запуск
-
-```bash
-npm start
-# или
 npm run dev
 ```
 
-## 📋 План разработки
+## Build
 
-1.
+```bash
+npm run build
+```
 
-## 📄 Лицензия
+## Deploy
 
-MIT
-
-## 🤖 Создано с помощью
-
-[AI Constructor Bot](https://t.me/construct_ai_bot) - Telegram бот для автоматической генерации проектов с помощью AI
+Deployed automatically to Vercel via GitHub.
